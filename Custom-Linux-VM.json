@@ -131,11 +131,6 @@
                     "computerName": "[parameters('virtualMachineComputerName')]",
                     "adminUsername": "[parameters('adminUsername')]",
                     "adminPassword": "[parameters('adminPassword')]",
-                    "windowsConfiguration": {
-                        "provisionVmAgent": true,
-                        "timeZone": "[parameters('timeZone')]",
-                        "enableAutomaticUpdates": false
-                    }
                 },
                 "priority": "Spot",
                 "evictionPolicy": "Deallocate",
