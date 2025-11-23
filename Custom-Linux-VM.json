@@ -137,7 +137,6 @@
                         "enableAutomaticUpdates": false
                     }
                 },
-                "licenseType": "[parameters('licenseType')]",
                 "priority": "Spot",
                 "evictionPolicy": "Deallocate",
                 "billingProfile": {
